@@ -33,7 +33,7 @@ h1 {
 
 .generate-pass-div {
     margin: 50px 0 25px 50px;
-
+    display: flex;
 }
 
 .gen-pass-btn {
@@ -43,6 +43,15 @@ h1 {
     border-radius: 5px;
     border: solid #10B981;
 }
+
+.user-input-inp {
+    margin: 0 0 0 8px;
+    width: 300px;
+    background-color: #273549;
+    border: solid #273549;
+    color: white;
+}
+
 
 .horizontal-line {
     margin: 0 45px 0 50px;
