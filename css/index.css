@@ -52,13 +52,21 @@ h1 {
 }
 
 .numbers-btn {
-    background-color: lightgreen;
+    background-color: #10B981;
     font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: solid;
+    margin: 0 10px 0 10px;
 }
 
 .symbols-btn {
-    background-color: lightgreen;
+    background-color: #10B981;
     font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: solid;
+    margin: 0 55px 0 0;
 }
 
 

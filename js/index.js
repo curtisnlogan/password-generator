@@ -239,7 +239,7 @@ function numbersToggleFunc() {
     }
     else {
         numbersToggle = true
-        document.querySelector('.numbers-btn').style.backgroundColor = 'lightgreen'
+        document.querySelector('.numbers-btn').style.backgroundColor = '#10B981'
     }
 }
 
@@ -252,7 +252,7 @@ function symbolsToggleFunc() {
     }
     else {
         symbolsToggle = true
-        document.querySelector('.symbols-btn').style.backgroundColor = 'lightgreen'
+        document.querySelector('.symbols-btn').style.backgroundColor = '#10B981'
     }
 }
 
