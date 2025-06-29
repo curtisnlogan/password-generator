@@ -1,8 +1,4 @@
 /*
-pseudocode
-
-* toggle numbers off and toggle symbols off
-
 */
 
 const characters = ["A","B","C","D","E","F","G","H","I",
@@ -11,7 +7,7 @@ const characters = ["A","B","C","D","E","F","G","H","I",
     "p","q","r","s","t","u","v","w","x","y","z",
     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
     "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=",
-    "{","[","}","]",",","|",":",";","<",">",".","?", "/"];
+    "{","[","}","]",",","|",":",";","<",">",".","?", "/"]
 
 const charactersNumbers = ["A","B","C","D","E","F","G","H","I",
     "J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
@@ -29,9 +25,8 @@ const charactersSymbols = ["A","B","C","D","E","F","G","H","I",
 let genPassBtn = document.querySelector('.gen-pass-btn').addEventListener('click', generatePasswords)
 let passDisplay1 = document.querySelector('.pass-display-1')
 let passDisplay2 = document.querySelector('.pass-display-2')
-let userInputPara = document.querySelector('.user-input-para')
-let numbersBtn = document.querySelector('.numbers-btn').addEventListener('click', numbersToggle)
-let symbolsBtn = document.querySelector('.symbols-btn').addEventListener('click', symbolsToggle)
+let numbersBtn = document.querySelector('.numbers-btn').addEventListener('click', numbersToggleFunc)
+let symbolsBtn = document.querySelector('.symbols-btn').addEventListener('click', symbolsToggleFunc)
 let numbersToggle = true
 let symbolsToggle = true
 
@@ -237,23 +232,27 @@ function generatePasswords() {
 
 /*
 */
-function numbersToggle() {
+function numbersToggleFunc() {
     if (numbersToggle === true) {
-        numbersToggle === false
+        numbersToggle = false;
+        document.querySelector('.numbers-btn').style.backgroundColor = '#d13d3f'
     }
     else {
-        numbersToggle = false
+        numbersToggle = true
+        document.querySelector('.numbers-btn').style.backgroundColor = 'lightgreen'
     }
 }
 
 /*
 */
-function symbolsToggle() {
+function symbolsToggleFunc() {
       if (symbolsToggle === true) {
-        symbolsToggle === false
+        symbolsToggle = false
+        document.querySelector('.symbols-btn').style.backgroundColor = '#d13d3f'
     }
     else {
         symbolsToggle = true
+        document.querySelector('.symbols-btn').style.backgroundColor = 'lightgreen'
     }
 }
 

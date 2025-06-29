@@ -1,5 +1,4 @@
 /* 
-pseudocode
 */
 
 body {
@@ -51,6 +50,17 @@ h1 {
     border: solid #273549;
     color: white;
 }
+
+.numbers-btn {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+.symbols-btn {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
 
 
 .horizontal-line {
