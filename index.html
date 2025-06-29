@@ -3,13 +3,13 @@ pseudocode
 
 * stretch goals
 copy on click
-toggle numbers off
-toggle symbols off
 
-* ability to set password length
+* toggle numbers off and toggle symbols off
 
-** css
-'generate-pass-div' make in-to flex
+**js
+
+**css
+
  -->
 <!DOCTYPE html>
 <html>
@@ -19,13 +19,17 @@ toggle symbols off
     <body>
         <div class="main-content">
             <h1>
-                <span class='white'>Generate a </span> <span class='green'>random password</span>
+                <span class='white'>Generate a </span> 
+                <span class='green'>random password</span>
             </h1>
             <h2 class="h1-subtitle">Never use an insecure password again.</h2>
         </div>
         <div class="generate-pass-div">
             <button class="gen-pass-btn">Generate passwords</button>
-            <input type="text" class="user-input-inp" placeholder="12, 13, 14 or 15 character password? Type here.">
+            <input type="text" class="user-input-inp" 
+            placeholder="12, 13, 14 or 15 character password? Type here.">
+            <button class="numbers-btn">On/off numbers in passwords.</button>
+            <button class="symbols-btn">On/off symbols in passwords.</button>
         </div>
         <hr class="horizontal-line">
         <div class="pass-display-div">
