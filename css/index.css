@@ -60,6 +60,15 @@ h1 {
     margin: 0 10px 0 10px;
 }
 
+.numbers-btn:hover {
+    background-color: #10B981;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: black solid;
+    margin: 0 10px 0 10px;
+}
+
 .symbols-btn {
     background-color: #10B981;
     font-weight: bold;
