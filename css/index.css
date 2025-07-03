@@ -78,7 +78,14 @@ h1 {
     margin: 0 55px 0 0;
 }
 
-
+.symbols-btn:hover {
+    background-color: #10B981;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: black solid;
+    margin: 0 55px 0 0;
+}
 
 .horizontal-line {
     margin: 0 45px 0 50px;
