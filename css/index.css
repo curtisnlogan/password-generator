@@ -43,6 +43,10 @@ h1 {
     border: solid #10B981;
 }
 
+.gen-pass-btn:hover {
+    border: black solid;
+}
+
 .user-input-inp {
     margin: 0 0 0 8px;
     width: 300px;
@@ -61,12 +65,7 @@ h1 {
 }
 
 .numbers-btn:hover {
-    background-color: #10B981;
-    font-weight: bold;
-    color: white;
-    border-radius: 5px;
-    border: black solid;
-    margin: 0 10px 0 10px;
+    border: black;
 }
 
 .symbols-btn {
@@ -79,12 +78,7 @@ h1 {
 }
 
 .symbols-btn:hover {
-    background-color: #10B981;
-    font-weight: bold;
-    color: white;
-    border-radius: 5px;
-    border: black solid;
-    margin: 0 55px 0 0;
+    border: black;
 }
 
 .horizontal-line {
