@@ -1,0 +1,122 @@
+/* 
+*/
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.main-content {
+    margin: 125px 150px 0 50px;
+    font-family: Karla, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+/* <span> element to target <h1> words with different colours*/
+.white {
+    color: white;
+}
+
+.green {
+    color: #4ADF86
+}
+
+.h1-subtitle {
+    color: #c2c2c2;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.generate-pass-div {
+    margin: 50px 0 25px 50px;
+    display: flex;
+}
+
+.gen-pass-btn {
+    background-color: #10B981;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: solid #10B981;
+}
+
+.gen-pass-btn:hover {
+    border: black solid;
+}
+
+.user-input-inp {
+    margin: 0 0 0 8px;
+    width: 300px;
+    background-color: #273549;
+    border: solid #273549;
+    color: white;
+}
+
+.numbers-btn {
+    background-color: #10B981;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: solid;
+    margin: 0 10px 0 10px;
+}
+
+.numbers-btn:hover {
+    border: black;
+}
+
+.symbols-btn {
+    background-color: #10B981;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: solid;
+    margin: 0 55px 0 0;
+}
+
+.symbols-btn:hover {
+    border: black;
+}
+
+.horizontal-line {
+    margin: 0 45px 0 50px;
+    color: #2F3E53;
+    opacity: calc(0.1);
+}
+
+.pass-display-div {
+    display: flex;
+    
+}
+
+.pass-display-1 {
+    font-size: 16px;
+    padding: 20px 20px 5px 20px;
+    font-family: Inter, sans-serif;
+    margin: 35px 20px 0 50px;
+    background-color: #273549;
+    width: 211px;
+    height: 30px;
+    color: #55F991;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pass-display-2 {
+    font-size: 16px;
+    padding: 20px 20px 5px 20px;
+    font-family: Inter, sans-serif;
+    margin: 35px 40px 0 0;
+    background-color: #273549;
+    width: 211px;
+    height: 30px;
+    color: #55F991;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
